@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.header {
+  background-color: cyan;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+  width: 80%;
+  margin: 40px auto;
+}
+
+.header h1 {
+  font-size: 30px;
+  color: darkblue;
+}
+
+.nuqta {
+  background-color: yellow;
+  color: black;
+  padding: 5px 10px;
+  border: 2px solid red;
+  border-radius: 8px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.qora-blok {
+  background-color: black;
+  padding: 30px;
+  border-radius: 40px;
+  width: 90%;
+  max-width: 1900px;
+  margin: 0 auto 60px auto;
+  box-sizing: border-box;
+}
+
+.rasmlar {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.rasmlar img {
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+}
+
+.matn-blok {
+  background-color: #e0ffff; 
+  padding: 25px;
+  border-radius: 20px;
+  font-size: 18px;
+  text-align: justify;
+  color: black;
+  line-height: 1.6;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.qizil {
+  color: red;
+  font-weight: bold;
+}
